@@ -14,7 +14,7 @@ function wordFrequency() {
     const wordCount = {};
   
     for (let i = 0; i < words.length; i++) {
-      const word = words[i].toLowerCase();
+      const word = words[i].toLowerCase();   
       if (wordCount[word]) {
         wordCount[word]++;
       } else {
